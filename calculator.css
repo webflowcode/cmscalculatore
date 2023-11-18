@@ -1,0 +1,131 @@
+.body {
+ background-color:  #F4F4F5
+}
+.row {
+  --bs-gutter-x: 0px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.cell-margin {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+   margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+}
+.btn-primary {
+      background-color: #e3a577;
+    border-color: #e3a577;
+  width:100%
+}
+.btn-primary:hover {
+    color: #fff;
+      background-color: #e3a577;
+    border-color: #e3a577 
+}
+.btn-primary:focus {
+    color: #fff;
+      background-color: #e3a577;
+    border-color: #e3a577;
+}
+
+.btn-success {
+  line-height: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #4d4d4d;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 12px 12px 20px;
+    background-color: #e4e4e4;
+    box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    border: none;
+}
+.btn-success:focus {
+  color: #4d4d4d;
+  background-color: #e4e4e4;
+  box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+}
+.btn-success:hover {
+  color: #4d4d4d;
+  background-color: #e4e4e4;
+  box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+}
+.show>.btn-success.dropdown-toggle {
+  color: #4d4d4d;
+  background-color: #e4e4e4;
+  box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+}
+.dropdown-menu {
+  min-width: auto;
+}
+
+.dropdown-item {
+  line-height: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #808080;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-bottom: 0.5px solid rgba(112, 112, 112, 0.25);
+}
+
+.total-buy-down {
+  flex: 100%;
+  width: 100%;
+  border: none;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #4d4d4d;
+  font-size: 16px;
+  margin: 0;
+}
+.total-buydown-amount {
+  font-size: 40px;
+  line-height: 48px;
+}
+.c-blue {
+  color: rgb(19, 136, 144);
+}
+
+.seperator {
+    padding: 20px 0 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.doughnut-chart-text {
+    font-weight: 600;
+    color: #7E7E7E;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.charts-container {
+  margin-top: 2rem;
+}
+.doughnut-chart-container {
+  border-right: 1px solid #DBDBDB;
+  width: 100%;
+}
+.bar-chart-container {
+  width: 100%;
+}
